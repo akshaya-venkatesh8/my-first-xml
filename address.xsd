@@ -17,7 +17,7 @@
 	<xs:element name="secondaryaddress" minOccurs="0" maxOccurs="1">
 	  <xs:simpleType>
   	    <xs:restriction base="xs:string">
-	      <xs:pattern value="[A-Z][A-Z][A-Z] [0-9][0-9][0-9]"/>      
+	      <xs:pattern value="[A-Z]{3} [0-9]{3}"/>      
 	      
 	    </xs:restriction>
 	  </xs:simpleType>
@@ -34,14 +34,14 @@
 	<xs:element name="statecode">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:string">
-	      <xs:pattern value="[A-Z][A-Z]"/>
+	      <xs:pattern value="[A-Z]{2}"/>
 	    </xs:restriction>
 	  </xs:simpleType>
         </xs:element>
 	<xs:element name="zipcode">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:positiveInteger">
-	       <xs:pattern value="[0-9][0-9][0-9][0-9][0-9]"/>
+	       <xs:pattern value="[0-9]{5}(-[0-9]{4})?"/>
 	    </xs:restriction>
 	  </xs:simpleType>
 	</xs:element>
