@@ -2,11 +2,11 @@
 project summer vaca
 <?xml version="1.0"?>
 <address xmlns:xsi="http://www.w3.org/2001/XMLSchema">
-  <name>Lily Joe</name>
+  <name>Lily Joe</name><!--sender or reciepient-->
   <streetnumber>123</streetnumber>
   <streetname>Main street</streetname>
-  <secondaryaddress>PES 123</secondaryaddress>
+  <secondaryaddress>PES 123</secondaryaddress><!--This field is optional & if it does exist then it is of this form PES 123-->
   <city>San Francisco</city>
-  <statecode>CA</statecode>
-  <zipcode>94111</zipcode>
+  <statecode>CA</statecode><!--will always be 2 capital alphabets-->
+  <zipcode>94111</zipcode><!--could also be in 5 digits-4 digits form-->
 </address>
